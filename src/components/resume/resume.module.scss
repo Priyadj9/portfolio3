@@ -1,0 +1,285 @@
+
+.resume-section {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+ }
+ 
+ .resume-section a, .resume-section a:visited  { color: #11ABB0; }
+ .resume-section a:hover, .resume-section a:focus { color: #313131; }
+ 
+ .resume-section h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ .resume-section h1 span {
+    border-bottom: 3px solid #e6450d;
+    padding-bottom: 6px;
+ }
+ .resume-section h3 {
+    font-size: 25px/30px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-weight: 500;
+  font-style: normal;
+ }
+ .resume-section h3:hover {
+   color: #e6450d;
+}
+ .resume-section .resume-heading {
+   font-size: 22px;
+   line-height: 30px;
+   margin-right: 5px;
+   font-family: "Montserrat", sans-serif;
+ font-optical-sizing: auto;
+
+ font-weight: 500;
+ font-style: normal;
+
+ 
+}
+
+.resume-box:hover{
+   cursor: pointer;
+   color: #e6450d !important;
+}
+.resume-box{
+   color: #313131 !important;
+}
+.icon-resume{
+   font-size: 20px !important;
+
+}
+
+
+ 
+ .resume-section .header-col { padding-top: 9px; }
+ .resume-section .main-col { padding-right: 10%; }
+ 
+ .education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+ }
+ .resume-section .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+ }
+ .resume-section .info2 {
+   
+   // color: #6E7881;
+   color: #313131 !important;
+   font-size: 14px;
+   line-height: 30px;
+   text-align: left;
+   
+   font-family: "Montserrat", sans-serif;
+ font-optical-sizing: auto;
+
+ font-weight: 500;
+ font-style: normal;
+}
+ .resume-section .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+ }
+ .resume-section .date {
+    font-size: 15px/24px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-weight: 400;
+  font-style: normal;
+    margin-top: 6px;
+ }
+ 
+ /*----------------------------------------------*/
+ /*	Skill Bars
+ /*----------------------------------------------*/
+ 
+ .bars {
+     width: 95%;
+     float: left;
+     padding: 0;
+     text-align: left;
+ }
+ .bars .skills {
+       margin-top: 36px;
+    list-style: none;
+ }
+ .bars li {
+    position: relative;
+       margin-bottom: 60px;
+       background: #ccc;
+       height: 42px;
+       border-radius: 3px;
+ }
+ .bars li em {
+     font-size: 15px;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    color: #313131;
+     text-transform: uppercase;
+    letter-spacing: 2px;
+     font-weight: 500;
+    position: relative;
+     top: -36px;
+ }
+ .bar-expand {
+    position: absolute;
+    left: 0;
+    top: 0;
+ 
+    margin: 0;
+    padding-right: 24px;
+       background: #313131;
+    display: inline-block;
+       height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
+ }
+ 
+ 
+ .css {
+       width: 80%;
+       -moz-animation: css 2s ease;
+       -webkit-animation: css 2s ease;
+ }
+ .html5 {
+       width: 80%;
+       -moz-animation: html5 2s ease;
+       -webkit-animation: html5 2s ease;
+ }
+ .reactjs {
+   width: 90%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+ .typescript {
+   width: 80%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.javascript {
+   width: 80%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.java {
+   width: 80%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.sql {
+   width: 70%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.springboot {
+   width: 50%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.jest\/enzyme {
+   width: 70%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+ 
+ @-moz-keyframes photoshop {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-moz-keyframes illustrator {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
+ @-moz-keyframes wordpress {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes css {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-moz-keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-moz-keyframes jquery {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ 
+ @-webkit-keyframes photoshop {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-webkit-keyframes illustrator {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
+ @-webkit-keyframes wordpress {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes css {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-webkit-keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes jquery {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+
+ @media only screen and (max-width: 900px) {
+  /* Resume Section
+   ------------------------------------------------------------------- */
+   .resume-section h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   .resume-section .main-col { padding-right: 5%; }   
+
+ }
+
+ @media only screen and (max-width: 767px) {
+ 
+   /* Resume Section
+   --------------------------------------------------------------------- */
+   .resume-section .header-col {
+      padding-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+   }
+   .resume-section h1 { letter-spacing: 3px; }
+   .resume-section .main-col { padding-right: 30px; }
+   .resume-section h3, .resume-section .info { text-align: center; }
+      
+   .bars { width: 100%; }
+
+
+   /* Call To Action Section
+   /* ----------------------------------------------------------------- */
+   #call-to-action { text-align: center; }
+   #call-to-action h1 {
+      font: 16px/24px 'opensans-bold', sans-serif;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   }
+   #call-to-action h1 span { display: block; }
+   #call-to-action .header-col h1:before { content: none; }
+   #call-to-action p { font-size: 15px; }
+}
